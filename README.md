@@ -33,7 +33,7 @@ First, I created a malicious backdoor payload using msfvenom where I gave my hos
 
 Now, I need to configure msfconsole where I set up a listener with my host IP, port and payload. For this, I used multi/handler exploit which is Generic Payload Handler. 
 
-<img src="picture/pic6.png" heigth=100px weigth=100px>
+<img src="picture/pic2.png" heigth=100px weigth=100px>
 
 Now I will upload the malicious file to the DVWA server and find out the path where it will be uploaded.
 
