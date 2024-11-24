@@ -49,4 +49,17 @@ Now, when I open this file, I have the reverse connection in a meterpreter shell
 <img src="picture/pic5.png" heigth=100px weigth=100px>
 
 
+Now let's talk about the mitigation process of this vulnerability.
+
+# Mitigation of File Upload Vulnerability
+
+1.	Validate File Type and Content: Use a whitelist for file types and validate MIME types, not just extensions.
+2.	Limit File Size and Paths: Restrict file size and store uploads outside the web root.
+3.	Rename and Sanitize: Rename files with unique names and sanitize file names to prevent exploits.
+4.	Server-Side Validation: Enforce strict validation on the server for type, size, and content.
+5.	Restrict Permissions and Use CSP: Set non-executable permissions for upload directories and apply Content Security Policies.
+These steps ensure better protection against file upload exploits.
+
+
+
 
